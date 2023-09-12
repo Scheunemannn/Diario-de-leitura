@@ -1,0 +1,14 @@
+.volumesContainer {
+    display: flex;
+    gap:2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.volumeImages {
+    width: 200px;
+    object-fit: cover;
+    border-radius: 1rem;
+    cursor: pointer;
+}
