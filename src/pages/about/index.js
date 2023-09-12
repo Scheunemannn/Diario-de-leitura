@@ -1,8 +1,10 @@
+import { ImageList } from "@/components/ImageList";
+
 export default function About () {
     return (
         <>
             <div>
-                <h1>Hello, about!</h1>
+                <ImageList/>
             </div>
         </>
     )

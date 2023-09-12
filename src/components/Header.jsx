@@ -7,8 +7,8 @@ export function Header () {
             <header>
                 <ul className={styles.navbar}>
                     <Link className={styles.navitem} href='./'>Home</Link>
-                    <Link className={styles.navitem} href='./about'>Obras</Link>
-                    <Link className={styles.navitem} href=''>About</Link>
+                    <Link className={styles.navitem} href='#'>Obras</Link>
+                    <Link className={styles.navitem} href='./about'>About</Link>
                 </ul>
             </header>
         </>

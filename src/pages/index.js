@@ -1,3 +1,4 @@
+import { ImageList } from "@/components/ImageList";
 import HomePage from "@/components/LandingPage";
 import Head from 'next/head'
 
@@ -8,6 +9,7 @@ export default function Home() {
         <title>manga</title>
       </Head>
       <HomePage/>
+      <ImageList/>
     </>
   )
 }

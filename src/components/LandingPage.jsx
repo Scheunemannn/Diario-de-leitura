@@ -1,12 +1,15 @@
 import Image from "next/image";
 import styles from "../styles/landingPage.module.css";
 
+const vagabondFrase = "⁠Não reze pelo futuro… Não pense nem no futuro e nem no passado, só se mantenha no presente."
+
+
 export default function HomePage() {
   return (
     <>
       <div className={styles.landingPage}>
         <div className={styles.landingPageText}>
-        <p>⁠Não reze pelo futuro… Não pense nem no futuro e nem no passado, só se mantenha no presente.</p>
+        <p>{vagabondFrase}</p>
         <p className={styles.vagabondReference}>-Vagabond</p>
         </div>
         <div className={styles.landingPageImage}>
