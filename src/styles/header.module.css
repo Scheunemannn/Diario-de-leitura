@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    gap: 3rem;
+    list-style-type: none;
+    padding: 2rem 4rem;
+    border: 1px solinpmd rgba(0, 0, 0, 0.068);
+    -webkit-box-shadow: 10px 9px 37px -26px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 9px 37px -26px rgba(0,0,0,0.75);
+    box-shadow: 10px 9px 37px -26px rgba(0,0,0,0.75);
+}
+
+.navitem {
+    transition: .3s;
+    cursor: pointer;
+    font-size: 2rem;
+    text-decoration: none;
+    color:inherit;
+}
+
+.navitem:first-child {
+    margin-right: auto;
+}
+
+.navitem:hover {
+    color:aquamarine;
+}
