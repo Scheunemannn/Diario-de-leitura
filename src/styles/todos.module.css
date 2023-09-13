@@ -1,0 +1,16 @@
+.titleTodo {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.todolist {
+    list-style-type: none;
+    width: 50rem;
+    margin: 1em auto;
+}
+
+.todolist li {
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid black;
+}
